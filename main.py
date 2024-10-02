@@ -24,7 +24,14 @@ else:
 
 
 # Task 4
-is_letter = (input("A letter in the alphabet?: "))
+enter_letter = (input("Enter a letter: "))
+is_vowel = ["A", "E","I","O","U", "W", "Y"]
+if is_vowel: 
+    print("The letter is indeed a vowel. ")
+
+else: 
+    print("The letter you enetered is a consonant. ")
+
 
 # Task 5 
 enter_int = (input("Enter 2 Intagers:" ))
